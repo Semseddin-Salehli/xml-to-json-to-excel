@@ -1,0 +1,7926 @@
+{
+	"project": {
+		"fileHeader": {
+			"_companyName": "",
+			"_productName": "CODESYS",
+			"_productVersion": "CODESYS V3.5 SP20 Patch 1",
+			"_creationDateTime": "2024-07-29T14:44:46.2377894"
+		},
+		"contentHeader": {
+			"coordinateInfo": {
+				"fbd": {
+					"scaling": {
+						"_x": "1",
+						"_y": "1"
+					}
+				},
+				"ld": {
+					"scaling": {
+						"_x": "1",
+						"_y": "1"
+					}
+				},
+				"sfc": {
+					"scaling": {
+						"_x": "1",
+						"_y": "1"
+					}
+				}
+			},
+			"addData": {
+				"data": {
+					"ProjectInformation": "",
+					"_name": "http://www.3s-software.com/plcopenxml/projectinformation",
+					"_handleUnknown": "implementation"
+				}
+			},
+			"_name": "Doqu_ges.project",
+			"_modificationDateTime": "2024-07-20T22:10:28.0263958"
+		},
+		"types": {
+			"dataTypes": "",
+			"pous": ""
+		},
+		"instances": {
+			"configurations": ""
+		},
+		"addData": {
+			"data": [
+				{
+					"globalVars": {
+						"variable": [
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "NEW\nPyronometer"
+									}
+								},
+								"_name": "Pry_Net_Radition_104",
+								"_address": "%QD10"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Pry_Compensated_Radition_104",
+								"_address": "%QD11"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Pry_Temp_104",
+								"_address": "%QD12"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Pry_External_Voltage_104",
+								"_address": "%QD13"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "Refcel-1"
+									}
+								},
+								"_name": "Refcel1_Net_Radition_104",
+								"_address": "%QD14"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcel1_Compensated_Radition_104",
+								"_address": "%QD15"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcel1_Temp_104",
+								"_address": "%QD16"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "Refcel-2"
+									}
+								},
+								"_name": "Refcel2_Net_Radition_104",
+								"_address": "%QD17"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcel2_Compensated_Radition_104",
+								"_address": "%QD18"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcel2_Temp_104",
+								"_address": "%QD19"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "H1_Relay"
+									}
+								},
+								"_name": "H1_Ia_104",
+								"_address": "%QD20"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Ib_104",
+								"_address": "%QD21"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Ic_104",
+								"_address": "%QD22"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Fault_Ia_104",
+								"_address": "%QD23"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Fault_Ib_104",
+								"_address": "%QD24"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Fault_Ic_104",
+								"_address": "%QD25"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_In_104",
+								"_address": "%QD26"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Va_104",
+								"_address": "%QD27"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Vb_104",
+								"_address": "%QD28"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Vc_104",
+								"_address": "%QD29"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Van_104",
+								"_address": "%QD30"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Vbn_104",
+								"_address": "%QD31"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Vcn_104",
+								"_address": "%QD32"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_F_104",
+								"_address": "%QD33"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Ia_104",
+								"_address": "%QD34"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Ib_104",
+								"_address": "%QD35"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Ic_104",
+								"_address": "%QD36"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Va_104",
+								"_address": "%QD37"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Vb_104",
+								"_address": "%QD38"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_THD_Vc_104",
+								"_address": "%QD39"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Pf_104",
+								"_address": "%QD40"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_P_104",
+								"_address": "%QD41"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Q_104",
+								"_address": "%QD42"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_S_104",
+								"_address": "%QD43"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Wpneg_104",
+								"_address": "%QD44"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Wqneg_104",
+								"_address": "%QD45"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Wppos_104",
+								"_address": "%QD46"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Wqpos_104",
+								"_address": "%QD47"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_CB_State_104",
+								"_address": "%QD48"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_DS_State_104",
+								"_address": "%QD49"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_EDS_State_104",
+								"_address": "%QD50"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Remote_State_104",
+								"_address": "%QD51"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_OC_State1_104",
+								"_address": "%QD52"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_OC_State2_104",
+								"_address": "%QD53"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_EOC_State1_104",
+								"_address": "%QD54"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_EOC_State2_104",
+								"_address": "%QD55"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Relay_Fault_104",
+								"_address": "%QD56"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "H2_ION"
+									}
+								},
+								"_name": "H2_Ia_104",
+								"_address": "%QD57"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Ib_104",
+								"_address": "%QD58"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Ic_104",
+								"_address": "%QD59"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Van_104",
+								"_address": "%QD60"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vbn_104",
+								"_address": "%QD61"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vcn_104",
+								"_address": "%QD62"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vab_104",
+								"_address": "%QD63"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vbc_104",
+								"_address": "%QD64"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vac_104",
+								"_address": "%QD65"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_F_104",
+								"_address": "%QD66"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_PF_104",
+								"_address": "%QD67"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDIA_104",
+								"_address": "%QD68"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDIB_104",
+								"_address": "%QD69"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDIC_104",
+								"_address": "%QD70"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDVA_104",
+								"_address": "%QD71"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDVB_104",
+								"_address": "%QD72"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_THDVC_104",
+								"_address": "%QD73"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_P_104",
+								"_address": "%QD74"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Q_104",
+								"_address": "%QD75"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_S_104",
+								"_address": "%QD76"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Wppos_104",
+								"_address": "%QD77"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Wpneg_104",
+								"_address": "%QD78"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Wqpos_104",
+								"_address": "%QD79"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Wqneg_104",
+								"_address": "%QD80"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Ia_Angle_104",
+								"_address": "%QD81"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Ib_Angle_104",
+								"_address": "%QD82"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Ic_Angle_104",
+								"_address": "%QD83"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Va_Angle_104",
+								"_address": "%QD84"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vb_Angle_104",
+								"_address": "%QD85"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_Vc_Angle_104",
+								"_address": "%QD86"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V1Plt_104",
+								"_address": "%QD87"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V1Pst_104",
+								"_address": "%QD88"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V2Plt_104",
+								"_address": "%QD89"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V2Pst_104",
+								"_address": "%QD90"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V3Plt_104",
+								"_address": "%QD91"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_V3Pst_104",
+								"_address": "%QD92"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-1"
+									}
+								},
+								"_name": "INV1_Status_104",
+								"_address": "%QD93"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Status_1044"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pin_104",
+								"_address": "%QD94"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv1_voltage_104",
+								"_address": "%QD95"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv1_current_104",
+								"_address": "%QD96"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv1_Pin_104",
+								"_address": "%QD97"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv2_voltage_104",
+								"_address": "%QD98"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv2_current_104",
+								"_address": "%QD99"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv2_Pin_104",
+								"_address": "%QD100"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv3_voltage_104",
+								"_address": "%QD101"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv3_current_104",
+								"_address": "%QD102"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv3_Pin_104",
+								"_address": "%QD103"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv4_voltage_104",
+								"_address": "%QD104"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv4_current_104",
+								"_address": "%QD105"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv4_Pin_104",
+								"_address": "%QD106"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv5_voltage_104",
+								"_address": "%QD107"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv5_current_104",
+								"_address": "%QD108"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv5_Pin_104",
+								"_address": "%QD109"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv6_voltage_104",
+								"_address": "%QD110"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv6_current_104",
+								"_address": "%QD111"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv6_Pin_104",
+								"_address": "%QD112"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv7_voltage_104",
+								"_address": "%QD113"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv7_current_104",
+								"_address": "%QD114"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv7_Pin_104",
+								"_address": "%QD115"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv8_voltage_104",
+								"_address": "%QD116"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv8_current_104",
+								"_address": "%QD117"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv8_Pin_104",
+								"_address": "%QD118"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv9_voltage_104",
+								"_address": "%QD119"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv9_current_104",
+								"_address": "%QD120"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv9_Pin_104",
+								"_address": "%QD121"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv10_voltage_104",
+								"_address": "%QD122"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv10_current_104",
+								"_address": "%QD123"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pv10_Pin_104",
+								"_address": "%QD124"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pac_out_104",
+								"_address": "%QD125"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Fac_104",
+								"_address": "%QD126"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac1_104",
+								"_address": "%QD127"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Iac1_104",
+								"_address": "%QD128"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pac1_104",
+								"_address": "%QD129"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac2_104",
+								"_address": "%QD130"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Iac2_104",
+								"_address": "%QD131"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pac2_104",
+								"_address": "%QD132"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac3_104",
+								"_address": "%QD133"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Iac3_104",
+								"_address": "%QD134"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Pac3_104",
+								"_address": "%QD135"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac_RS_104",
+								"_address": "%QD136"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac_ST_104",
+								"_address": "%QD137"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Vac_TR_104",
+								"_address": "%QD138"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Eactoday_104",
+								"_address": "%QD139"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Eactotal_104",
+								"_address": "%QD140"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Timetotal_104",
+								"_address": "%QD141"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv1_today_104",
+								"_address": "%QD142"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv1_total_104",
+								"_address": "%QD143"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv2_today_104",
+								"_address": "%QD144"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv2_total_104",
+								"_address": "%QD145"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv3_today_104",
+								"_address": "%QD146"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv3_total_104",
+								"_address": "%QD147"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv4_today_104",
+								"_address": "%QD148"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv4_total_104",
+								"_address": "%QD149"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv5_today_104",
+								"_address": "%QD150"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv5_total_104",
+								"_address": "%QD151"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv6_today_104",
+								"_address": "%QD152"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv6_total_104",
+								"_address": "%QD153"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv7_today_104",
+								"_address": "%QD154"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv7_total_104",
+								"_address": "%QD155"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv8_today_104",
+								"_address": "%QD156"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv8_total_104",
+								"_address": "%QD157"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv9_today_104",
+								"_address": "%QD158"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv9_total_104",
+								"_address": "%QD159"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv10_today_104",
+								"_address": "%QD160"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv10_total_104",
+								"_address": "%QD161"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Epv_total_104",
+								"_address": "%QD162"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Temp1_104",
+								"_address": "%QD163"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Temp2_104",
+								"_address": "%QD164"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Temp3_104",
+								"_address": "%QD165"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Temp4_104",
+								"_address": "%QD166"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_BatVolt_DSP_104",
+								"_address": "%QD167"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_P_Bus_Voltage_104",
+								"_address": "%QD168"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_N_Bus_Voltage_104",
+								"_address": "%QD169"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_IPF_104",
+								"_address": "%QD170"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V1_104",
+								"_address": "%QD171"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I1_104",
+								"_address": "%QD172"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V2_104",
+								"_address": "%QD173"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I2_104",
+								"_address": "%QD174"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V3_104",
+								"_address": "%QD175"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I3_104",
+								"_address": "%QD176"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V4_104",
+								"_address": "%QD177"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I4_104",
+								"_address": "%QD178"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V5_104",
+								"_address": "%QD179"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I5_104",
+								"_address": "%QD180"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V6_104",
+								"_address": "%QD181"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I6_104",
+								"_address": "%QD182"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V7_104",
+								"_address": "%QD183"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I7_104",
+								"_address": "%QD184"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V8_104",
+								"_address": "%QD185"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I8_104",
+								"_address": "%QD186"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V9_104",
+								"_address": "%QD187"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I9_104",
+								"_address": "%QD188"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V10_104",
+								"_address": "%QD189"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I10_104",
+								"_address": "%QD190"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V11_104",
+								"_address": "%QD191"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I11_104",
+								"_address": "%QD192"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V12_104",
+								"_address": "%QD193"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I12_104",
+								"_address": "%QD194"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V13_104",
+								"_address": "%QD195"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I13_104",
+								"_address": "%QD196"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V14_104",
+								"_address": "%QD197"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I14_104",
+								"_address": "%QD198"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V15_104",
+								"_address": "%QD199"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I15_104",
+								"_address": "%QD200"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V16_104",
+								"_address": "%QD201"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I16_104",
+								"_address": "%QD202"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V17_104",
+								"_address": "%QD203"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I17_104",
+								"_address": "%QD204"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V18_104",
+								"_address": "%QD205"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I18_104",
+								"_address": "%QD206"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V19_104",
+								"_address": "%QD207"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I19_104",
+								"_address": "%QD208"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_V20_104",
+								"_address": "%QD209"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_String_I20_104",
+								"_address": "%QD210"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Fan1_Fault_104",
+								"_address": "%QD211"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Fan2_Fault_104",
+								"_address": "%QD212"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Fan3_Fault_104",
+								"_address": "%QD213"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Fan4_Fault_104",
+								"_address": "%QD214"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "Inverter-2"
+									}
+								},
+								"_name": "INV2_Status_104",
+								"_address": "%QD215"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pin_104",
+								"_address": "%QD216"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv1_voltage_104",
+								"_address": "%QD217"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv1_current_104",
+								"_address": "%QD218"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv1_Pin_104",
+								"_address": "%QD219"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv2_voltage_104",
+								"_address": "%QD220"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv2_current_104",
+								"_address": "%QD221"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv2_Pin_104",
+								"_address": "%QD222"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv3_voltage_104",
+								"_address": "%QD223"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv3_current_104",
+								"_address": "%QD224"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv3_Pin_104",
+								"_address": "%QD225"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv4_voltage_104",
+								"_address": "%QD226"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv4_current_104",
+								"_address": "%QD227"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv4_Pin_104",
+								"_address": "%QD228"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv5_voltage_104",
+								"_address": "%QD229"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv5_current_104",
+								"_address": "%QD230"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv5_Pin_104",
+								"_address": "%QD231"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv6_voltage_104",
+								"_address": "%QD232"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv6_current_104",
+								"_address": "%QD233"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv6_Pin_104",
+								"_address": "%QD234"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv7_voltage_104",
+								"_address": "%QD235"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv7_current_104",
+								"_address": "%QD236"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv7_Pin_104",
+								"_address": "%QD237"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv8_voltage_104",
+								"_address": "%QD238"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv8_current_104",
+								"_address": "%QD239"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv8_Pin_104",
+								"_address": "%QD240"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv9_voltage_104",
+								"_address": "%QD241"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv9_current_104",
+								"_address": "%QD242"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv9_Pin_104",
+								"_address": "%QD243"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv10_voltage_104",
+								"_address": "%QD244"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv10_current_104",
+								"_address": "%QD245"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pv10_Pin_104",
+								"_address": "%QD246"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pac_out_104",
+								"_address": "%QD247"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Fac_104",
+								"_address": "%QD248"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac1_104",
+								"_address": "%QD249"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Iac1_104",
+								"_address": "%QD250"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pac1_104",
+								"_address": "%QD251"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac2_104",
+								"_address": "%QD252"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Iac2_104",
+								"_address": "%QD253"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pac2_104",
+								"_address": "%QD254"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac3_104",
+								"_address": "%QD255"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Iac3_104",
+								"_address": "%QD256"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Pac3_104",
+								"_address": "%QD257"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac_RS_104",
+								"_address": "%QD258"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac_ST_104",
+								"_address": "%QD259"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Vac_TR_104",
+								"_address": "%QD260"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Eactoday_104",
+								"_address": "%QD261"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Eactotal_104",
+								"_address": "%QD262"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Timetotal_104",
+								"_address": "%QD263"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv1_today_104",
+								"_address": "%QD264"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv1_total_104",
+								"_address": "%QD265"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv2_today_104",
+								"_address": "%QD266"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv2_total_104",
+								"_address": "%QD267"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv3_today_104",
+								"_address": "%QD268"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv3_total_104",
+								"_address": "%QD269"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv4_today_104",
+								"_address": "%QD270"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv4_total_104",
+								"_address": "%QD271"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv5_today_104",
+								"_address": "%QD272"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv5_total_104",
+								"_address": "%QD273"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv6_today_104",
+								"_address": "%QD274"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv6_total_104",
+								"_address": "%QD275"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv7_today_104",
+								"_address": "%QD276"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv7_total_104",
+								"_address": "%QD277"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv8_today_104",
+								"_address": "%QD278"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv8_total_104",
+								"_address": "%QD279"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv9_today_104",
+								"_address": "%QD280"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv9_total_104",
+								"_address": "%QD281"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv10_today_104",
+								"_address": "%QD282"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv10_total_104",
+								"_address": "%QD283"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Epv_total_104",
+								"_address": "%QD284"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Temp1_104",
+								"_address": "%QD285"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Temp2_104",
+								"_address": "%QD286"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Temp3_104",
+								"_address": "%QD287"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Temp4_104",
+								"_address": "%QD288"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_BatVolt_DSP_104",
+								"_address": "%QD289"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_P_Bus_Voltage_104",
+								"_address": "%QD290"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_N_Bus_Voltage_104",
+								"_address": "%QD291"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_IPF_104",
+								"_address": "%QD292"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V1_104",
+								"_address": "%QD293"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I1_104",
+								"_address": "%QD294"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V2_104",
+								"_address": "%QD295"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I2_104",
+								"_address": "%QD296"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V3_104",
+								"_address": "%QD297"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I3_104",
+								"_address": "%QD298"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V4_104",
+								"_address": "%QD299"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I4_104",
+								"_address": "%QD300"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V5_104",
+								"_address": "%QD301"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I5_104",
+								"_address": "%QD302"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V6_104",
+								"_address": "%QD303"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I6_104",
+								"_address": "%QD304"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V7_104",
+								"_address": "%QD305"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I7_104",
+								"_address": "%QD306"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V8_104",
+								"_address": "%QD307"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I8_104",
+								"_address": "%QD308"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V9_104",
+								"_address": "%QD309"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I9_104",
+								"_address": "%QD310"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V10_104",
+								"_address": "%QD311"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I10_104",
+								"_address": "%QD312"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V11_104",
+								"_address": "%QD313"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I11_104",
+								"_address": "%QD314"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V12_104",
+								"_address": "%QD315"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I12_104",
+								"_address": "%QD316"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V13_104",
+								"_address": "%QD317"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I13_104",
+								"_address": "%QD318"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V14_104",
+								"_address": "%QD319"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I14_104",
+								"_address": "%QD320"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V15_104",
+								"_address": "%QD321"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I15_104",
+								"_address": "%QD322"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V16_104",
+								"_address": "%QD323"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I16_104",
+								"_address": "%QD324"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V17_104",
+								"_address": "%QD325"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I17_104",
+								"_address": "%QD326"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V18_104",
+								"_address": "%QD327"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I18_104",
+								"_address": "%QD328"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V19_104",
+								"_address": "%QD329"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I19_104",
+								"_address": "%QD330"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_V20_104",
+								"_address": "%QD331"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_String_I20_104",
+								"_address": "%QD332"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Fan1_Fault_104",
+								"_address": "%QD333"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Fan2_Fault_104",
+								"_address": "%QD334"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Fan3_Fault_104",
+								"_address": "%QD335"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Fan4_Fault_104",
+								"_address": "%QD336"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-3*"
+									}
+								},
+								"_name": "INV3_Status_104",
+								"_address": "%QD337"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pin_104",
+								"_address": "%QD338"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv1_voltage_104",
+								"_address": "%QD339"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv1_current_104",
+								"_address": "%QD340"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv1_Pin_104",
+								"_address": "%QD341"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv2_voltage_104",
+								"_address": "%QD342"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv2_current_104",
+								"_address": "%QD343"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv2_Pin_104",
+								"_address": "%QD344"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv3_voltage_104",
+								"_address": "%QD345"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv3_current_104",
+								"_address": "%QD346"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv3_Pin_104",
+								"_address": "%QD347"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv4_voltage_104",
+								"_address": "%QD348"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv4_current_104",
+								"_address": "%QD349"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv4_Pin_104",
+								"_address": "%QD350"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv5_voltage_104",
+								"_address": "%QD351"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv5_current_104",
+								"_address": "%QD352"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv5_Pin_104",
+								"_address": "%QD353"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv6_voltage_104",
+								"_address": "%QD354"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv6_current_104",
+								"_address": "%QD355"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv6_Pin_104",
+								"_address": "%QD356"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv7_voltage_104",
+								"_address": "%QD357"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv7_current_104",
+								"_address": "%QD358"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv7_Pin_104",
+								"_address": "%QD359"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv8_voltage_104",
+								"_address": "%QD360"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv8_current_104",
+								"_address": "%QD361"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv8_Pin_104",
+								"_address": "%QD362"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv9_voltage_104",
+								"_address": "%QD363"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv9_current_104",
+								"_address": "%QD364"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv9_Pin_104",
+								"_address": "%QD365"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv10_voltage_104",
+								"_address": "%QD366"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv10_current_104",
+								"_address": "%QD367"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pv10_Pin_104",
+								"_address": "%QD368"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pac_out_104",
+								"_address": "%QD369"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Fac_104",
+								"_address": "%QD370"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac1_104",
+								"_address": "%QD371"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Iac1_104",
+								"_address": "%QD372"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pac1_104",
+								"_address": "%QD373"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac2_104",
+								"_address": "%QD374"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Iac2_104",
+								"_address": "%QD375"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pac2_104",
+								"_address": "%QD376"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac3_104",
+								"_address": "%QD377"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Iac3_104",
+								"_address": "%QD378"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Pac3_104",
+								"_address": "%QD379"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac_RS_104",
+								"_address": "%QD380"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac_ST_104",
+								"_address": "%QD381"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Vac_TR_104",
+								"_address": "%QD382"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Eactoday_104",
+								"_address": "%QD383"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Eactotal_104",
+								"_address": "%QD384"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Timetotal_104",
+								"_address": "%QD385"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv1_today_104",
+								"_address": "%QD386"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv1_total_104",
+								"_address": "%QD387"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv2_today_104",
+								"_address": "%QD388"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv2_total_104",
+								"_address": "%QD389"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv3_today_104",
+								"_address": "%QD390"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv3_total_104",
+								"_address": "%QD391"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv4_today_104",
+								"_address": "%QD392"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv4_total_104",
+								"_address": "%QD393"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv5_today_104",
+								"_address": "%QD394"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv5_total_104",
+								"_address": "%QD395"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv6_today_104",
+								"_address": "%QD396"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv6_total_104",
+								"_address": "%QD397"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv7_today_104",
+								"_address": "%QD398"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv7_total_104",
+								"_address": "%QD399"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv8_today_104",
+								"_address": "%QD400"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv8_total_104",
+								"_address": "%QD401"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv9_today_104",
+								"_address": "%QD402"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv9_total_104",
+								"_address": "%QD403"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv10_today_104",
+								"_address": "%QD404"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv10_total_104",
+								"_address": "%QD405"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Epv_total_104",
+								"_address": "%QD406"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Temp1_104",
+								"_address": "%QD407"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Temp2_104",
+								"_address": "%QD408"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Temp3_104",
+								"_address": "%QD409"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Temp4_104",
+								"_address": "%QD410"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_BatVolt_DSP_104",
+								"_address": "%QD411"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_P_Bus_Voltage_104",
+								"_address": "%QD412"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_N_Bus_Voltage_104",
+								"_address": "%QD413"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_IPF_104",
+								"_address": "%QD414"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V1_104",
+								"_address": "%QD415"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I1_104",
+								"_address": "%QD416"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V2_104",
+								"_address": "%QD417"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I2_104",
+								"_address": "%QD418"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V3_104",
+								"_address": "%QD419"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I3_104",
+								"_address": "%QD420"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V4_104",
+								"_address": "%QD421"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I4_104",
+								"_address": "%QD422"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V5_104",
+								"_address": "%QD423"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I5_104",
+								"_address": "%QD424"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V6_104",
+								"_address": "%QD425"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I6_104",
+								"_address": "%QD426"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V7_104",
+								"_address": "%QD427"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I7_104",
+								"_address": "%QD428"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V8_104",
+								"_address": "%QD429"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I8_104",
+								"_address": "%QD430"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V9_104",
+								"_address": "%QD431"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I9_104",
+								"_address": "%QD432"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V10_104",
+								"_address": "%QD433"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I10_104",
+								"_address": "%QD434"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V11_104",
+								"_address": "%QD435"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I11_104",
+								"_address": "%QD436"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V12_104",
+								"_address": "%QD437"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I12_104",
+								"_address": "%QD438"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V13_104",
+								"_address": "%QD439"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I13_104",
+								"_address": "%QD440"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V14_104",
+								"_address": "%QD441"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I14_104",
+								"_address": "%QD442"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V15_104",
+								"_address": "%QD443"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I15_104",
+								"_address": "%QD444"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V16_104",
+								"_address": "%QD445"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I16_104",
+								"_address": "%QD446"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V17_104",
+								"_address": "%QD447"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I17_104",
+								"_address": "%QD448"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V18_104",
+								"_address": "%QD449"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I18_104",
+								"_address": "%QD450"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V19_104",
+								"_address": "%QD451"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I19_104",
+								"_address": "%QD452"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_V20_104",
+								"_address": "%QD453"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_String_I20_104",
+								"_address": "%QD454"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Fan1_Fault_104",
+								"_address": "%QD455"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Fan2_Fault_104",
+								"_address": "%QD456"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Fan3_Fault_104",
+								"_address": "%QD457"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Fan4_Fault_104",
+								"_address": "%QD458"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-4*"
+									}
+								},
+								"_name": "INV4_Status_104",
+								"_address": "%QD459"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pin_104",
+								"_address": "%QD460"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv1_voltage_104",
+								"_address": "%QD461"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv1_current_104",
+								"_address": "%QD462"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv1_Pin_104",
+								"_address": "%QD463"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv2_voltage_104",
+								"_address": "%QD464"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv2_current_104",
+								"_address": "%QD465"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv2_Pin_104",
+								"_address": "%QD466"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv3_voltage_104",
+								"_address": "%QD467"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv3_current_104",
+								"_address": "%QD468"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv3_Pin_104",
+								"_address": "%QD469"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv4_voltage_104",
+								"_address": "%QD470"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv4_current_104",
+								"_address": "%QD471"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv4_Pin_104",
+								"_address": "%QD472"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv5_voltage_104",
+								"_address": "%QD473"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv5_current_104",
+								"_address": "%QD474"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv5_Pin_104",
+								"_address": "%QD475"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv6_voltage_104",
+								"_address": "%QD476"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv6_current_104",
+								"_address": "%QD477"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv6_Pin_104",
+								"_address": "%QD478"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv7_voltage_104",
+								"_address": "%QD479"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv7_current_104",
+								"_address": "%QD480"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv7_Pin_104",
+								"_address": "%QD481"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv8_voltage_104",
+								"_address": "%QD482"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv8_current_104",
+								"_address": "%QD483"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv8_Pin_104",
+								"_address": "%QD484"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv9_voltage_104",
+								"_address": "%QD485"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv9_current_104",
+								"_address": "%QD486"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv9_Pin_104",
+								"_address": "%QD487"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv10_voltage_104",
+								"_address": "%QD488"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv10_current_104",
+								"_address": "%QD489"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pv10_Pin_104",
+								"_address": "%QD490"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pac_out_104",
+								"_address": "%QD491"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Fac_104",
+								"_address": "%QD492"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac1_104",
+								"_address": "%QD493"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Iac1_104",
+								"_address": "%QD494"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pac1_104",
+								"_address": "%QD495"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac2_104",
+								"_address": "%QD496"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Iac2_104",
+								"_address": "%QD497"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pac2_104",
+								"_address": "%QD498"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac3_104",
+								"_address": "%QD499"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Iac3_104",
+								"_address": "%QD500"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Pac3_104",
+								"_address": "%QD501"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac_RS_104",
+								"_address": "%QD502"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac_ST_104",
+								"_address": "%QD503"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Vac_TR_104",
+								"_address": "%QD504"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Eactoday_104",
+								"_address": "%QD505"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Eactotal_104",
+								"_address": "%QD506"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Timetotal_104",
+								"_address": "%QD507"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv1_today_104",
+								"_address": "%QD508"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv1_total_104",
+								"_address": "%QD509"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv2_today_104",
+								"_address": "%QD510"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv2_total_104",
+								"_address": "%QD511"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv3_today_104",
+								"_address": "%QD512"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv3_total_104",
+								"_address": "%QD513"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv4_today_104",
+								"_address": "%QD514"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv4_total_104",
+								"_address": "%QD515"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv5_today_104",
+								"_address": "%QD516"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv5_total_104",
+								"_address": "%QD517"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv6_today_104",
+								"_address": "%QD518"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv6_total_104",
+								"_address": "%QD519"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv7_today_104",
+								"_address": "%QD520"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv7_total_104",
+								"_address": "%QD521"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv8_today_104",
+								"_address": "%QD522"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv8_total_104",
+								"_address": "%QD523"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv9_today_104",
+								"_address": "%QD524"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv9_total_104",
+								"_address": "%QD525"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv10_today_104",
+								"_address": "%QD526"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv10_total_104",
+								"_address": "%QD527"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Epv_total_104",
+								"_address": "%QD528"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Temp1_104",
+								"_address": "%QD529"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Temp2_104",
+								"_address": "%QD530"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Temp3_104",
+								"_address": "%QD531"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Temp4_104",
+								"_address": "%QD532"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_BatVolt_DSP_104",
+								"_address": "%QD533"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_P_Bus_Voltage_104",
+								"_address": "%QD534"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_N_Bus_Voltage_104",
+								"_address": "%QD535"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_IPF_104",
+								"_address": "%QD536"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V1_104",
+								"_address": "%QD537"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I1_104",
+								"_address": "%QD538"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V2_104",
+								"_address": "%QD539"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I2_104",
+								"_address": "%QD540"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V3_104",
+								"_address": "%QD541"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I3_104",
+								"_address": "%QD542"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V4_104",
+								"_address": "%QD543"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I4_104",
+								"_address": "%QD544"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V5_104",
+								"_address": "%QD545"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I5_104",
+								"_address": "%QD546"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V6_104",
+								"_address": "%QD547"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I6_104",
+								"_address": "%QD548"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V7_104",
+								"_address": "%QD549"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I7_104",
+								"_address": "%QD550"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V8_104",
+								"_address": "%QD551"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I8_104",
+								"_address": "%QD552"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V9_104",
+								"_address": "%QD553"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I9_104",
+								"_address": "%QD554"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V10_104",
+								"_address": "%QD555"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I10_104",
+								"_address": "%QD556"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V11_104",
+								"_address": "%QD557"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I11_104",
+								"_address": "%QD558"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V12_104",
+								"_address": "%QD559"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I12_104",
+								"_address": "%QD560"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V13_104",
+								"_address": "%QD561"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I13_104",
+								"_address": "%QD562"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V14_104",
+								"_address": "%QD563"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I14_104",
+								"_address": "%QD564"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V15_104",
+								"_address": "%QD565"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I15_104",
+								"_address": "%QD566"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V16_104",
+								"_address": "%QD567"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I16_104",
+								"_address": "%QD568"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V17_104",
+								"_address": "%QD569"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I17_104",
+								"_address": "%QD570"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V18_104",
+								"_address": "%QD571"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I18_104",
+								"_address": "%QD572"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V19_104",
+								"_address": "%QD573"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I19_104",
+								"_address": "%QD574"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_V20_104",
+								"_address": "%QD575"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_String_I20_104",
+								"_address": "%QD576"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Fan1_Fault_104",
+								"_address": "%QD577"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Fan2_Fault_104",
+								"_address": "%QD578"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Fan3_Fault_104",
+								"_address": "%QD579"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Fan4_Fault_104",
+								"_address": "%QD580"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-5*"
+									}
+								},
+								"_name": "INV5_Status_104",
+								"_address": "%QD581"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pin_104",
+								"_address": "%QD582"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv1_voltage_104",
+								"_address": "%QD583"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv1_current_104",
+								"_address": "%QD584"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv1_Pin_104",
+								"_address": "%QD585"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv2_voltage_104",
+								"_address": "%QD586"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv2_current_104",
+								"_address": "%QD587"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv2_Pin_104",
+								"_address": "%QD588"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv3_voltage_104",
+								"_address": "%QD589"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv3_current_104",
+								"_address": "%QD590"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv3_Pin_104",
+								"_address": "%QD591"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv4_voltage_104",
+								"_address": "%QD592"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv4_current_104",
+								"_address": "%QD593"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv4_Pin_104",
+								"_address": "%QD594"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv5_voltage_104",
+								"_address": "%QD595"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv5_current_104",
+								"_address": "%QD596"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv5_Pin_104",
+								"_address": "%QD597"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv6_voltage_104",
+								"_address": "%QD598"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv6_current_104",
+								"_address": "%QD599"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv6_Pin_104",
+								"_address": "%QD600"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv7_voltage_104",
+								"_address": "%QD601"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv7_current_104",
+								"_address": "%QD602"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv7_Pin_104",
+								"_address": "%QD603"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv8_voltage_104",
+								"_address": "%QD604"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv8_current_104",
+								"_address": "%QD605"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv8_Pin_104",
+								"_address": "%QD606"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv9_voltage_104",
+								"_address": "%QD607"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv9_current_104",
+								"_address": "%QD608"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv9_Pin_104",
+								"_address": "%QD609"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv10_voltage_104",
+								"_address": "%QD610"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv10_current_104",
+								"_address": "%QD611"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pv10_Pin_104",
+								"_address": "%QD612"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pac_out_104",
+								"_address": "%QD613"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Fac_104",
+								"_address": "%QD614"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac1_104",
+								"_address": "%QD615"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Iac1_104",
+								"_address": "%QD616"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pac1_104",
+								"_address": "%QD617"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac2_104",
+								"_address": "%QD618"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Iac2_104",
+								"_address": "%QD619"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pac2_104",
+								"_address": "%QD620"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac3_104",
+								"_address": "%QD621"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Iac3_104",
+								"_address": "%QD622"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Pac3_104",
+								"_address": "%QD623"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac_RS_104",
+								"_address": "%QD624"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac_ST_104",
+								"_address": "%QD625"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Vac_TR_104",
+								"_address": "%QD626"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Eactoday_104",
+								"_address": "%QD627"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Eactotal_104",
+								"_address": "%QD628"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Timetotal_104",
+								"_address": "%QD629"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv1_today_104",
+								"_address": "%QD630"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv1_total_104",
+								"_address": "%QD631"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv2_today_104",
+								"_address": "%QD632"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv2_total_104",
+								"_address": "%QD633"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv3_today_104",
+								"_address": "%QD634"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv3_total_104",
+								"_address": "%QD635"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv4_today_104",
+								"_address": "%QD636"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv4_total_104",
+								"_address": "%QD637"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv5_today_104",
+								"_address": "%QD638"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv5_total_104",
+								"_address": "%QD639"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv6_today_104",
+								"_address": "%QD640"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv6_total_104",
+								"_address": "%QD641"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv7_today_104",
+								"_address": "%QD642"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv7_total_104",
+								"_address": "%QD643"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv8_today_104",
+								"_address": "%QD644"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv8_total_104",
+								"_address": "%QD645"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv9_today_104",
+								"_address": "%QD646"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv9_total_104",
+								"_address": "%QD647"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv10_today_104",
+								"_address": "%QD648"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv10_total_104",
+								"_address": "%QD649"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Epv_total_104",
+								"_address": "%QD650"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Temp1_104",
+								"_address": "%QD651"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Temp2_104",
+								"_address": "%QD652"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Temp3_104",
+								"_address": "%QD653"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Temp4_104",
+								"_address": "%QD654"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_BatVolt_DSP_104",
+								"_address": "%QD655"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_P_Bus_Voltage_104",
+								"_address": "%QD656"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_N_Bus_Voltage_104",
+								"_address": "%QD657"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_IPF_104",
+								"_address": "%QD658"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V1_104",
+								"_address": "%QD659"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I1_104",
+								"_address": "%QD660"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V2_104",
+								"_address": "%QD661"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I2_104",
+								"_address": "%QD662"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V3_104",
+								"_address": "%QD663"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I3_104",
+								"_address": "%QD664"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V4_104",
+								"_address": "%QD665"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I4_104",
+								"_address": "%QD666"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V5_104",
+								"_address": "%QD667"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I5_104",
+								"_address": "%QD668"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V6_104",
+								"_address": "%QD669"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I6_104",
+								"_address": "%QD670"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V7_104",
+								"_address": "%QD671"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I7_104",
+								"_address": "%QD672"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V8_104",
+								"_address": "%QD673"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I8_104",
+								"_address": "%QD674"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V9_104",
+								"_address": "%QD675"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I9_104",
+								"_address": "%QD676"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V10_104",
+								"_address": "%QD677"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I10_104",
+								"_address": "%QD678"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V11_104",
+								"_address": "%QD679"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I11_104",
+								"_address": "%QD680"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V12_104",
+								"_address": "%QD681"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I12_104",
+								"_address": "%QD682"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V13_104",
+								"_address": "%QD683"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I13_104",
+								"_address": "%QD684"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V14_104",
+								"_address": "%QD685"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I14_104",
+								"_address": "%QD686"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V15_104",
+								"_address": "%QD687"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I15_104",
+								"_address": "%QD688"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V16_104",
+								"_address": "%QD689"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I16_104",
+								"_address": "%QD690"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V17_104",
+								"_address": "%QD691"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I17_104",
+								"_address": "%QD692"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V18_104",
+								"_address": "%QD693"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I18_104",
+								"_address": "%QD694"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V19_104",
+								"_address": "%QD695"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I19_104",
+								"_address": "%QD696"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_V20_104",
+								"_address": "%QD697"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_String_I20_104",
+								"_address": "%QD698"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Fan1_Fault_104",
+								"_address": "%QD699"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Fan2_Fault_104",
+								"_address": "%QD700"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Fan3_Fault_104",
+								"_address": "%QD701"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Fan4_Fault_104",
+								"_address": "%QD702"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-6*"
+									}
+								},
+								"_name": "INV6_Status_104",
+								"_address": "%QD703"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pin_104",
+								"_address": "%QD704"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv1_voltage_104",
+								"_address": "%QD705"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv1_current_104",
+								"_address": "%QD706"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv1_Pin_104",
+								"_address": "%QD707"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv2_voltage_104",
+								"_address": "%QD708"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv2_current_104",
+								"_address": "%QD709"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv2_Pin_104",
+								"_address": "%QD710"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv3_voltage_104",
+								"_address": "%QD711"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv3_current_104",
+								"_address": "%QD712"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv3_Pin_104",
+								"_address": "%QD713"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv4_voltage_104",
+								"_address": "%QD714"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv4_current_104",
+								"_address": "%QD715"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv4_Pin_104",
+								"_address": "%QD716"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv5_voltage_104",
+								"_address": "%QD717"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv5_current_104",
+								"_address": "%QD718"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv5_Pin_104",
+								"_address": "%QD719"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv6_voltage_104",
+								"_address": "%QD720"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv6_current_104",
+								"_address": "%QD721"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv6_Pin_104",
+								"_address": "%QD722"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv7_voltage_104",
+								"_address": "%QD723"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv7_current_104",
+								"_address": "%QD724"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv7_Pin_104",
+								"_address": "%QD725"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv8_voltage_104",
+								"_address": "%QD726"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv8_current_104",
+								"_address": "%QD727"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv8_Pin_104",
+								"_address": "%QD728"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv9_voltage_104",
+								"_address": "%QD729"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv9_current_104",
+								"_address": "%QD730"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv9_Pin_104",
+								"_address": "%QD731"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv10_voltage_104",
+								"_address": "%QD732"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv10_current_104",
+								"_address": "%QD733"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pv10_Pin_104",
+								"_address": "%QD734"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pac_out_104",
+								"_address": "%QD735"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Fac_104",
+								"_address": "%QD736"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac1_104",
+								"_address": "%QD737"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Iac1_104",
+								"_address": "%QD738"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pac1_104",
+								"_address": "%QD739"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac2_104",
+								"_address": "%QD740"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Iac2_104",
+								"_address": "%QD741"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pac2_104",
+								"_address": "%QD742"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac3_104",
+								"_address": "%QD743"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Iac3_104",
+								"_address": "%QD744"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Pac3_104",
+								"_address": "%QD745"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac_RS_104",
+								"_address": "%QD746"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac_ST_104",
+								"_address": "%QD747"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Vac_TR_104",
+								"_address": "%QD748"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Eactoday_104",
+								"_address": "%QD749"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Eactotal_104",
+								"_address": "%QD750"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Timetotal_104",
+								"_address": "%QD751"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv1_today_104",
+								"_address": "%QD752"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv1_total_104",
+								"_address": "%QD753"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv2_today_104",
+								"_address": "%QD754"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv2_total_104",
+								"_address": "%QD755"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv3_today_104",
+								"_address": "%QD756"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv3_total_104",
+								"_address": "%QD757"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv4_today_104",
+								"_address": "%QD758"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv4_total_104",
+								"_address": "%QD759"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv5_today_104",
+								"_address": "%QD760"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv5_total_104",
+								"_address": "%QD761"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv6_today_104",
+								"_address": "%QD762"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv6_total_104",
+								"_address": "%QD763"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv7_today_104",
+								"_address": "%QD764"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv7_total_104",
+								"_address": "%QD765"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv8_today_104",
+								"_address": "%QD766"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv8_total_104",
+								"_address": "%QD767"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv9_today_104",
+								"_address": "%QD768"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv9_total_104",
+								"_address": "%QD769"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv10_today_104",
+								"_address": "%QD770"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv10_total_104",
+								"_address": "%QD771"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Epv_total_104",
+								"_address": "%QD772"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Temp1_104",
+								"_address": "%QD773"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Temp2_104",
+								"_address": "%QD774"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Temp3_104",
+								"_address": "%QD775"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Temp4_104",
+								"_address": "%QD776"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_BatVolt_DSP_104",
+								"_address": "%QD777"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_P_Bus_Voltage_104",
+								"_address": "%QD778"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_N_Bus_Voltage_104",
+								"_address": "%QD779"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_IPF_104",
+								"_address": "%QD780"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V1_104",
+								"_address": "%QD781"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I1_104",
+								"_address": "%QD782"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V2_104",
+								"_address": "%QD783"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I2_104",
+								"_address": "%QD784"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V3_104",
+								"_address": "%QD785"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I3_104",
+								"_address": "%QD786"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V4_104",
+								"_address": "%QD787"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I4_104",
+								"_address": "%QD788"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V5_104",
+								"_address": "%QD789"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I5_104",
+								"_address": "%QD790"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V6_104",
+								"_address": "%QD791"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I6_104",
+								"_address": "%QD792"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V7_104",
+								"_address": "%QD793"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I7_104",
+								"_address": "%QD794"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V8_104",
+								"_address": "%QD795"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I8_104",
+								"_address": "%QD796"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V9_104",
+								"_address": "%QD797"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I9_104",
+								"_address": "%QD798"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V10_104",
+								"_address": "%QD799"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I10_104",
+								"_address": "%QD800"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V11_104",
+								"_address": "%QD801"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I11_104",
+								"_address": "%QD802"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V12_104",
+								"_address": "%QD803"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I12_104",
+								"_address": "%QD804"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V13_104",
+								"_address": "%QD805"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I13_104",
+								"_address": "%QD806"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V14_104",
+								"_address": "%QD807"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I14_104",
+								"_address": "%QD808"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V15_104",
+								"_address": "%QD809"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I15_104",
+								"_address": "%QD810"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V16_104",
+								"_address": "%QD811"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I16_104",
+								"_address": "%QD812"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V17_104",
+								"_address": "%QD813"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I17_104",
+								"_address": "%QD814"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V18_104",
+								"_address": "%QD815"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I18_104",
+								"_address": "%QD816"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V19_104",
+								"_address": "%QD817"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I19_104",
+								"_address": "%QD818"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_V20_104",
+								"_address": "%QD819"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_String_I20_104",
+								"_address": "%QD820"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Fan1_Fault_104",
+								"_address": "%QD821"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Fan2_Fault_104",
+								"_address": "%QD822"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Fan3_Fault_104",
+								"_address": "%QD823"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Fan4_Fault_104",
+								"_address": "%QD824"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-7*"
+									}
+								},
+								"_name": "INV7_Status_104",
+								"_address": "%QD825"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pin_104",
+								"_address": "%QD826"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv1_voltage_104",
+								"_address": "%QD827"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv1_current_104",
+								"_address": "%QD828"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv1_Pin_104",
+								"_address": "%QD829"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv2_voltage_104",
+								"_address": "%QD830"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv2_current_104",
+								"_address": "%QD831"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv2_Pin_104",
+								"_address": "%QD832"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv3_voltage_104",
+								"_address": "%QD833"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv3_current_104",
+								"_address": "%QD834"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv3_Pin_104",
+								"_address": "%QD835"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv4_voltage_104",
+								"_address": "%QD836"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv4_current_104",
+								"_address": "%QD837"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv4_Pin_104",
+								"_address": "%QD838"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv5_voltage_104",
+								"_address": "%QD839"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv5_current_104",
+								"_address": "%QD840"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv5_Pin_104",
+								"_address": "%QD841"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv6_voltage_104",
+								"_address": "%QD842"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv6_current_104",
+								"_address": "%QD843"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv6_Pin_104",
+								"_address": "%QD844"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv7_voltage_104",
+								"_address": "%QD845"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv7_current_104",
+								"_address": "%QD846"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv7_Pin_104",
+								"_address": "%QD847"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv8_voltage_104",
+								"_address": "%QD848"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv8_current_104",
+								"_address": "%QD849"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv8_Pin_104",
+								"_address": "%QD850"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv9_voltage_104",
+								"_address": "%QD851"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv9_current_104",
+								"_address": "%QD852"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv9_Pin_104",
+								"_address": "%QD853"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv10_voltage_104",
+								"_address": "%QD854"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv10_current_104",
+								"_address": "%QD855"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pv10_Pin_104",
+								"_address": "%QD856"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pac_out_104",
+								"_address": "%QD857"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Fac_104",
+								"_address": "%QD858"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac1_104",
+								"_address": "%QD859"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Iac1_104",
+								"_address": "%QD860"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pac1_104",
+								"_address": "%QD861"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac2_104",
+								"_address": "%QD862"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Iac2_104",
+								"_address": "%QD863"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pac2_104",
+								"_address": "%QD864"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac3_104",
+								"_address": "%QD865"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Iac3_104",
+								"_address": "%QD866"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Pac3_104",
+								"_address": "%QD867"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac_RS_104",
+								"_address": "%QD868"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac_ST_104",
+								"_address": "%QD869"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Vac_TR_104",
+								"_address": "%QD870"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Eactoday_104",
+								"_address": "%QD871"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Eactotal_104",
+								"_address": "%QD872"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Timetotal_104",
+								"_address": "%QD873"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv1_today_104",
+								"_address": "%QD874"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv1_total_104",
+								"_address": "%QD875"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv2_today_104",
+								"_address": "%QD876"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv2_total_104",
+								"_address": "%QD877"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv3_today_104",
+								"_address": "%QD878"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv3_total_104",
+								"_address": "%QD879"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv4_today_104",
+								"_address": "%QD880"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv4_total_104",
+								"_address": "%QD881"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv5_today_104",
+								"_address": "%QD882"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv5_total_104",
+								"_address": "%QD883"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv6_today_104",
+								"_address": "%QD884"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv6_total_104",
+								"_address": "%QD885"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv7_today_104",
+								"_address": "%QD886"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv7_total_104",
+								"_address": "%QD887"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv8_today_104",
+								"_address": "%QD888"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv8_total_104",
+								"_address": "%QD889"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv9_today_104",
+								"_address": "%QD890"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv9_total_104",
+								"_address": "%QD891"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv10_today_104",
+								"_address": "%QD892"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv10_total_104",
+								"_address": "%QD893"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Epv_total_104",
+								"_address": "%QD894"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Temp1_104",
+								"_address": "%QD895"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Temp2_104",
+								"_address": "%QD896"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Temp3_104",
+								"_address": "%QD897"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Temp4_104",
+								"_address": "%QD898"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_BatVolt_DSP_104",
+								"_address": "%QD899"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_P_Bus_Voltage_104",
+								"_address": "%QD900"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_N_Bus_Voltage_104",
+								"_address": "%QD901"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_IPF_104",
+								"_address": "%QD902"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V1_104",
+								"_address": "%QD903"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I1_104",
+								"_address": "%QD904"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V2_104",
+								"_address": "%QD905"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I2_104",
+								"_address": "%QD906"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V3_104",
+								"_address": "%QD907"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I3_104",
+								"_address": "%QD908"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V4_104",
+								"_address": "%QD909"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I4_104",
+								"_address": "%QD910"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V5_104",
+								"_address": "%QD911"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I5_104",
+								"_address": "%QD912"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V6_104",
+								"_address": "%QD913"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I6_104",
+								"_address": "%QD914"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V7_104",
+								"_address": "%QD915"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I7_104",
+								"_address": "%QD916"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V8_104",
+								"_address": "%QD917"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I8_104",
+								"_address": "%QD918"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V9_104",
+								"_address": "%QD919"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I9_104",
+								"_address": "%QD920"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V10_104",
+								"_address": "%QD921"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I10_104",
+								"_address": "%QD922"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V11_104",
+								"_address": "%QD923"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I11_104",
+								"_address": "%QD924"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V12_104",
+								"_address": "%QD925"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I12_104",
+								"_address": "%QD926"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V13_104",
+								"_address": "%QD927"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I13_104",
+								"_address": "%QD928"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V14_104",
+								"_address": "%QD929"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I14_104",
+								"_address": "%QD930"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V15_104",
+								"_address": "%QD931"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I15_104",
+								"_address": "%QD932"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V16_104",
+								"_address": "%QD933"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I16_104",
+								"_address": "%QD934"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V17_104",
+								"_address": "%QD935"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I17_104",
+								"_address": "%QD936"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V18_104",
+								"_address": "%QD937"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I18_104",
+								"_address": "%QD938"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V19_104",
+								"_address": "%QD939"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I19_104",
+								"_address": "%QD940"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_V20_104",
+								"_address": "%QD941"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_String_I20_104",
+								"_address": "%QD942"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Fan1_Fault_104",
+								"_address": "%QD943"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Fan2_Fault_104",
+								"_address": "%QD944"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Fan3_Fault_104",
+								"_address": "%QD945"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Fan4_Fault_104",
+								"_address": "%QD946"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Inverter-8*"
+									}
+								},
+								"_name": "INV8_Status_104",
+								"_address": "%QD947"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pin_104",
+								"_address": "%QD948"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv1_voltage_104",
+								"_address": "%QD949"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv1_current_104",
+								"_address": "%QD950"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv1_Pin_104",
+								"_address": "%QD951"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv2_voltage_104",
+								"_address": "%QD952"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv2_current_104",
+								"_address": "%QD953"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv2_Pin_104",
+								"_address": "%QD954"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv3_voltage_104",
+								"_address": "%QD955"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv3_current_104",
+								"_address": "%QD956"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv3_Pin_104",
+								"_address": "%QD957"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv4_voltage_104",
+								"_address": "%QD958"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv4_current_104",
+								"_address": "%QD959"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv4_Pin_104",
+								"_address": "%QD960"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv5_voltage_104",
+								"_address": "%QD961"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv5_current_104",
+								"_address": "%QD962"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv5_Pin_104",
+								"_address": "%QD963"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv6_voltage_104",
+								"_address": "%QD964"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv6_current_104",
+								"_address": "%QD965"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv6_Pin_104",
+								"_address": "%QD966"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv7_voltage_104",
+								"_address": "%QD967"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv7_current_104",
+								"_address": "%QD968"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv7_Pin_104",
+								"_address": "%QD969"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv8_voltage_104",
+								"_address": "%QD970"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv8_current_104",
+								"_address": "%QD971"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv8_Pin_104",
+								"_address": "%QD972"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv9_voltage_104",
+								"_address": "%QD973"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv9_current_104",
+								"_address": "%QD974"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv9_Pin_104",
+								"_address": "%QD975"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv10_voltage_104",
+								"_address": "%QD976"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv10_current_104",
+								"_address": "%QD977"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pv10_Pin_104",
+								"_address": "%QD978"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pac_out_104",
+								"_address": "%QD979"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Fac_104",
+								"_address": "%QD980"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac1_104",
+								"_address": "%QD981"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Iac1_104",
+								"_address": "%QD982"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pac1_104",
+								"_address": "%QD983"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac2_104",
+								"_address": "%QD984"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Iac2_104",
+								"_address": "%QD985"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pac2_104",
+								"_address": "%QD986"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac3_104",
+								"_address": "%QD987"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Iac3_104",
+								"_address": "%QD988"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Pac3_104",
+								"_address": "%QD989"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac_RS_104",
+								"_address": "%QD990"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac_ST_104",
+								"_address": "%QD991"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Vac_TR_104",
+								"_address": "%QD992"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Eactoday_104",
+								"_address": "%QD993"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Eactotal_104",
+								"_address": "%QD994"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Timetotal_104",
+								"_address": "%QD995"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv1_today_104",
+								"_address": "%QD996"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv1_total_104",
+								"_address": "%QD997"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv2_today_104",
+								"_address": "%QD998"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv2_total_104",
+								"_address": "%QD999"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv3_today_104",
+								"_address": "%QD1000"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv3_total_104",
+								"_address": "%QD1001"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv4_today_104",
+								"_address": "%QD1002"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv4_total_104",
+								"_address": "%QD1003"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv5_today_104",
+								"_address": "%QD1004"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv5_total_104",
+								"_address": "%QD1005"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv6_today_104",
+								"_address": "%QD1006"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv6_total_104",
+								"_address": "%QD1007"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv7_today_104",
+								"_address": "%QD1008"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv7_total_104",
+								"_address": "%QD1009"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv8_today_104",
+								"_address": "%QD1010"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv8_total_104",
+								"_address": "%QD1011"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv9_today_104",
+								"_address": "%QD1012"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv9_total_104",
+								"_address": "%QD1013"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv10_today_104",
+								"_address": "%QD1014"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv10_total_104",
+								"_address": "%QD1015"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Epv_total_104",
+								"_address": "%QD1016"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Temp1_104",
+								"_address": "%QD1017"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Temp2_104",
+								"_address": "%QD1018"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Temp3_104",
+								"_address": "%QD1019"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Temp4_104",
+								"_address": "%QD1020"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_BatVolt_DSP_104",
+								"_address": "%QD1021"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_P_Bus_Voltage_104",
+								"_address": "%QD1022"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_N_Bus_Voltage_104",
+								"_address": "%QD1023"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_IPF_104",
+								"_address": "%QD1024"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V1_104",
+								"_address": "%QD1025"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I1_104",
+								"_address": "%QD1026"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V2_104",
+								"_address": "%QD1027"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I2_104",
+								"_address": "%QD1028"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V3_104",
+								"_address": "%QD1029"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I3_104",
+								"_address": "%QD1030"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V4_104",
+								"_address": "%QD1031"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I4_104",
+								"_address": "%QD1032"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V5_104",
+								"_address": "%QD1033"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I5_104",
+								"_address": "%QD1034"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V6_104",
+								"_address": "%QD1035"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I6_104",
+								"_address": "%QD1036"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V7_104",
+								"_address": "%QD1037"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I7_104",
+								"_address": "%QD1038"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V8_104",
+								"_address": "%QD1039"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I8_104",
+								"_address": "%QD1040"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V9_104",
+								"_address": "%QD1041"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I9_104",
+								"_address": "%QD1042"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V10_104",
+								"_address": "%QD1043"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I10_104",
+								"_address": "%QD1044"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V11_104",
+								"_address": "%QD1045"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I11_104",
+								"_address": "%QD1046"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V12_104",
+								"_address": "%QD1047"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I12_104",
+								"_address": "%QD1048"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V13_104",
+								"_address": "%QD1049"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I13_104",
+								"_address": "%QD1050"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V14_104",
+								"_address": "%QD1051"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I14_104",
+								"_address": "%QD1052"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V15_104",
+								"_address": "%QD1053"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I15_104",
+								"_address": "%QD1054"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V16_104",
+								"_address": "%QD1055"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I16_104",
+								"_address": "%QD1056"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V17_104",
+								"_address": "%QD1057"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I17_104",
+								"_address": "%QD1058"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V18_104",
+								"_address": "%QD1059"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I18_104",
+								"_address": "%QD1060"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V19_104",
+								"_address": "%QD1061"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I19_104",
+								"_address": "%QD1062"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_V20_104",
+								"_address": "%QD1063"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_String_I20_104",
+								"_address": "%QD1064"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Fan1_Fault_104",
+								"_address": "%QD1065"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Fan2_Fault_104",
+								"_address": "%QD1066"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Fan3_Fault_104",
+								"_address": "%QD1067"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Fan4_Fault_104",
+								"_address": "%QD1068"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*Remote_IO*"
+									}
+								},
+								"_name": "Red_Sebeke_Ariza_104",
+								"_address": "%QD1069"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_CB_OPEN_104",
+								"_address": "%QD1070"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_CB_CLOSE_104",
+								"_address": "%QD1071"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_DS_OPEN_104",
+								"_address": "%QD1072"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_DS_CLOSE_104",
+								"_address": "%QD1073"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_EDS_OPEN_104",
+								"_address": "%QD1074"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_EDS_CLOSE_104",
+								"_address": "%QD1075"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_CB_SPRING_104",
+								"_address": "%QD1076"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_SF6_LOW_104",
+								"_address": "%QD1077"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_SF6_NO_104",
+								"_address": "%QD1078"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H3_CB_OPEN_104",
+								"_address": "%QD1079"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H3_CB_CLOSE_104",
+								"_address": "%QD1080"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H3_TERMOSTAT_TRIP_104",
+								"_address": "%QD1081"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H3_TERMOSTAT_ALARM_104",
+								"_address": "%QD1082"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H4_CB_OPEN_104",
+								"_address": "%QD1083"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H4_CB_CLOSE_104",
+								"_address": "%QD1084"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H4_TERMOSTAT_TRIP_104",
+								"_address": "%QD1085"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H4_TERMOSTAT_ALARM_104",
+								"_address": "%QD1086"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "*WAGO I0*"
+									}
+								},
+								"_name": "AG_TMS_OPEN_104",
+								"_address": "%QD1087"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "AG_TMS_CLOSE_104",
+								"_address": "%QD1088"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Deprem_Sensor_104",
+								"_address": "%QD1089"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Red_Fault_104",
+								"_address": "%QD1090"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Red_DC_Low_104",
+								"_address": "%QD1091"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Red_AC_Low_104",
+								"_address": "%QD1092"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Red_Aku_Zayif_104",
+								"_address": "%QD1093"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Rtu_Local_Remote_104",
+								"_address": "%QD1094"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"documentation": {
+									"xhtml": {
+										"_xmlns": "http://www.w3.org/1999/xhtml",
+										"__text": "Communication"
+									}
+								},
+								"_name": "Pyronometer_Com_Error",
+								"_address": "%QD1095"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcell1_Com_Error",
+								"_address": "%QD1096"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Refcell2_Com_Error",
+								"_address": "%QD1097"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H1_Relay_Com_Error",
+								"_address": "%QD1098"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "H2_EKK_Com_Error",
+								"_address": "%QD1099"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV1_Com_Error",
+								"_address": "%QD1100"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV2_Com_Error",
+								"_address": "%QD1101"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV3_Com_Error",
+								"_address": "%QD1102"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV4_Com_Error",
+								"_address": "%QD1103"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV5_Com_Error",
+								"_address": "%QD1104"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV6_Com_Error",
+								"_address": "%QD1105"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV7_Com_Error",
+								"_address": "%QD1106"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "INV8_Com_Error",
+								"_address": "%QD1107"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "Remote_IO_Com_Error",
+								"_address": "%QD1108"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "TOT_Pin_104",
+								"_address": "%QD1109"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "TOT_Com_Error",
+								"_address": "%QD1110"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "TOT_Eactoday_104",
+								"_address": "%QD1111"
+							},
+							{
+								"type": {
+									"REAL": ""
+								},
+								"_name": "SUM_Non_Com",
+								"_address": "%QD1112"
+							},
+							{
+								"type": {
+									"BOOL": ""
+								},
+								"_name": "AG_TMS_OPEN_CMD"
+							},
+							{
+								"type": {
+									"BOOL": ""
+								},
+								"_name": "AG_TMS_CLOSE_CMD"
+							}
+						],
+						"addData": {
+							"data": [
+								{
+									"Attributes": {
+										"Attribute": {
+											"_Name": "qualified_only",
+											"_Value": ""
+										}
+									},
+									"_name": "http://www.3s-software.com/plcopenxml/attributes",
+									"_handleUnknown": "implementation"
+								},
+								{
+									"ObjectId": "3becb3d5-b905-442e-86d0-6c07df9af0f6",
+									"_name": "http://www.3s-software.com/plcopenxml/objectid",
+									"_handleUnknown": "discard"
+								}
+							]
+						},
+						"_name": "GVL_1"
+					},
+					"_name": "http://www.3s-software.com/plcopenxml/globalvars",
+					"_handleUnknown": "implementation"
+				},
+				{
+					"ProjectStructure": {
+						"Object": {
+							"_Name": "GVL_1",
+							"_ObjectId": "3becb3d5-b905-442e-86d0-6c07df9af0f6"
+						}
+					},
+					"_name": "http://www.3s-software.com/plcopenxml/projectstructure",
+					"_handleUnknown": "discard"
+				}
+			]
+		},
+		"_xmlns": "http://www.plcopen.org/xml/tc6_0200"
+	}
+}
