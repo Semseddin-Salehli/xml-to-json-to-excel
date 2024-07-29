@@ -11,198 +11,147 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script defer src="https://requirejs.org/docs/release/2.3.5/minified/require.js" ></script>
 </head>
-<body>
+<body class="bg-warning">
 
-    <div class="content p-5">
-
-        <input type="file" id="fileXML" class="mb-4"  />
-
-        <!-- <input type="file" id="input" class="mb-4" /> -->
-        <h1>Verileri XLSX Dosyasına Çevir</h1>
-        <table id="data-table" class="table table-dark table-hover w-100 border-1">
-            <thead id="data-table-head"></thead>
-
-            <tbody id="data-table-body"></tbody>
-        </table>
+    <div class="content p-5 container d-flex align-items-center justify-content-between flex-column ">
+        <h1 class="mb-4 ">XML Dosyasını EXCEL'e Dönüştür</h1>
+        <input class="form-control inline w-50" type="file" id="file-input" accept=".xml">
+        <button class="btn btn-primary mt-3 w-25" id="convert-btn">Download Excel</button>
+        <pre id="json-output"></pre>
     </div>
 
 <script>
 
-
-
     var arrayFullData = [];
     var data = "";
 
-    document.getElementById('fileXML').addEventListener('change', getDataFromJson, true);
+    function xmlToJson(xml) {
+            // XML'yi JSON formatına dönüştür
+            const obj = {};
 
-    async function getDataFromJson(event) {
-
-        let fileXML = event.target.files[0];
-        // let path = (window.URL || window.webkitURL).createObjectURL(fileXML);
-        // let pathOrg = path.slice(5);
-
-        // console.log(fileXML);
-
-        await fetch(fileXML.name)
-            .then((response) => response.json())
-            .then((json) => data = json.project.addData.data[0].globalVars.variable);
-
-        
-        for (let i = 0; i < data.length; i++) {
-            const element = data[i];
-            const elementName = element._name;
-            var elementAddress = element._address;
-
-            // console.log(elementName);
-
-            if(elementAddress == undefined) {
-                if(element.type.BOOL == "") {
-                    element.type = "BOOL";
-                    elementAddress = "BOOL";
-                    // console.log(element.type);
+            if (xml.nodeType === 1) { // Element node
+                if (xml.attributes.length > 0) {
+                    obj["@attributes"] = {};
+                    for (let j = 0; j < xml.attributes.length; j++) {
+                        const attribute = xml.attributes.item(j);
+                        obj["@attributes"][attribute.nodeName] = attribute.nodeValue;
+                    }
                 }
-            } else {
-                elementAddress = elementAddress.slice(3) * 2 - 2 + 30000;
-                // console.log(elementAddress)
+            } else if (xml.nodeType === 3) { // Text node
+                obj["#text"] = xml.nodeValue.trim();
             }
 
-            arrayFullData.push([elementName, elementAddress])
+            if (xml.hasChildNodes()) {
+                for (let i = 0; i < xml.childNodes.length; i++) {
+                    const item = xml.childNodes.item(i);
+                    const nodeName = item.nodeName;
+
+                    if (item.nodeType === 1) { // Element node
+                        if (typeof(obj[nodeName]) === "undefined") {
+                            obj[nodeName] = xmlToJson(item);
+                        } else {
+                            if (typeof(obj[nodeName].push) === "undefined") {
+                                const old = obj[nodeName];
+                                obj[nodeName] = [];
+                                obj[nodeName].push(old);
+                            }
+                            obj[nodeName].push(xmlToJson(item));
+                        }
+                    }
+                }
+            }
+
+            return obj;
         }
-            // Verileri bir çalışma sayfasına çevir
-            const worksheet = XLSX.utils.aoa_to_sheet(arrayFullData);
 
-            // Yeni bir çalışma kitabı oluştur
-            const workbook = XLSX.utils.book_new();
-
-            // Çalışma sayfasını çalışma kitabına ekle
-            XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
-
-            // Çalışma kitabını bir binary string olarak yaz
-            const wbout = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
-
-            // String'i ArrayBuffer'a çeviren yardımcı fonksiyon
-            function s2ab(s) {
-                const buf = new ArrayBuffer(s.length);
-                const view = new Uint8Array(buf);
-                for (let i = 0; i < s.length; i++) {
-                    view[i] = s.charCodeAt(i) & 0xFF;
-                }
-                return buf;
+        document.getElementById('convert-btn').addEventListener('click', function() {
+            const fileInput = document.getElementById('file-input');
+            if (fileInput.files.length === 0) {
+                alert('Lütfen bir XML dosyası seçin.');
+                return;
             }
 
-            // Dosyayı indirmek için Blob oluştur ve URL oluştur
-            const blob = new Blob([s2ab(wbout)], { type: 'application/octet-stream' });
-            const url = URL.createObjectURL(blob);
+            const file = fileInput.files[0];
+            const reader = new FileReader();
 
-            // İndirme işlemini başlatmak için geçici bir link oluştur
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'data.xlsx';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
+            reader.onload = function(event) {
+                const xmlString = event.target.result;
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlString, "text/xml");
 
-        console.log(arrayFullData)
+                // Hata kontrolü
+                const parserError = xmlDoc.getElementsByTagName("parsererror");
+                if (parserError.length) {
+                    document.getElementById('json-output').textContent = 'Hatalı XML verisi!';
+                    return;
+                }
 
-    }
+                const json = xmlToJson(xmlDoc.documentElement);
+                // document.getElementById('json-output').textContent = JSON.stringify(json, null, 2);
 
+                data = json.addData.data[0].globalVars.variable;
 
-// document.getElementById('input').addEventListener('change', handleFile, false);
+                // console.log(data);
 
-// function handleFile(event) {
-//     const file = event.target.files[0];
-//     const reader = new FileReader();
-//     reader.onload = function (e) {
-//         const data = new Uint8Array(e.target.result);
-//         const workbook = XLSX.read(data, { type: 'array' });
-
-//         // İlk sayfayı seç
-//         const firstSheetName = workbook.SheetNames[0];
-//         const worksheet = workbook.Sheets[firstSheetName];
-
-//         // Sayfadaki verileri JSON olarak al
-//         const jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-
-//         let tableHead = document.getElementById("data-table-head");
-//         let headElements = jsonData[0];
-//         const rowHead = document.createElement('tr');
-
-//         const nameCell = document.createElement('td');
-//         nameCell.textContent = headElements[0];
-//         rowHead.appendChild(nameCell);
-
-//         const addressCell = document.createElement('td');
-//         addressCell.textContent = headElements[1];
-//         rowHead.appendChild(addressCell);
-
-//         tableHead.appendChild(rowHead);
-
-//         let tableBody = document.getElementById("data-table-body");
+                for (let i = 0; i < data.length; i++) {
+                    const element = data[i];
+                    const elementName = element["@attributes"].name;
+                    var elementAddress = element["@attributes"].address;
 
 
-//         for (let i = 1; i < jsonData.length; i++) {
-//             const element = jsonData[i];
-            
-//             // Yeni bir satır oluştur
-//             const row = document.createElement('tr');
+                    if(elementAddress == undefined) {
+                        console.log(element.type.BOOL)
+                        if(element.type.BOOL) {
+                            element.type = "BOOL";
+                            elementAddress = "BOOL";
+                            console.log(elementAddress);
+                    }
+                    } else {
+                        elementAddress = elementAddress.slice(3) * 2 - 2 + 30000;
+                        // console.log(elementAddress)
+                    }
 
-//             // Her veri için yeni hücreler oluştur ve satıra ekle
-//             const nameCell = document.createElement('td');
-//             nameCell.textContent = element[0];
-//             row.appendChild(nameCell);
+                        arrayFullData.push([elementName, elementAddress])
+                    }
+                        // Verileri bir çalışma sayfasına çevir
+                        const worksheet = XLSX.utils.aoa_to_sheet(arrayFullData);
 
-//             // Filtrelenmiş değeri al
-//             const match = element[1].match(/AT%QD(\d+):REAL;/);
-//             const filteredValue = match ? match[1] : '';
+                        // Yeni bir çalışma kitabı oluştur
+                        const workbook = XLSX.utils.book_new();
 
-//             const addressCell = document.createElement('td');
-//             addressCell.textContent = filteredValue;
-//             row.appendChild(addressCell);
+                        // Çalışma sayfasını çalışma kitabına ekle
+                        XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
 
-//             tableBody.appendChild(row);
-//         }
-//     };
-//     reader.readAsArrayBuffer(file);
-// }
+                        // Çalışma kitabını bir binary string olarak yaz
+                        const wbout = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
 
-//     document.getElementById('download-btn').addEventListener('click', function () {
-//         // Tabloyu al
-//         var table = document.getElementById('data-table');
-        
-//         // Tabloyu bir çalışma sayfasına çevir
-//         var worksheet = XLSX.utils.table_to_sheet(table);
-        
-//         // Yeni bir çalışma kitabı oluştur
-//         var workbook = XLSX.utils.book_new();
-        
-//         // Çalışma sayfasını çalışma kitabına ekle
-//         XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
-        
-//         // Çalışma kitabını bir binary string olarak yaz
-//         var wbout = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
-        
-//         // String'i ArrayBuffer'a çeviren yardımcı fonksiyon
-//         function s2ab(s) {
-//             var buf = new ArrayBuffer(s.length);
-//             var view = new Uint8Array(buf);
-//             for (var i = 0; i < s.length; i++) {
-//                 view[i] = s.charCodeAt(i) & 0xFF;
-//             }
-//             return buf;
-//         }
-        
-//         // Dosyayı indirmek için Blob oluştur ve URL oluştur
-//         var blob = new Blob([s2ab(wbout)], { type: 'application/octet-stream' });
-//         var url = URL.createObjectURL(blob);
-        
-//         // İndirme işlemini başlatmak için geçici bir link oluştur
-//         var a = document.createElement('a');
-//         a.href = url;
-//         a.download = 'data.xlsx';
-//         document.body.appendChild(a);
-//         a.click();
-//         document.body.removeChild(a);
-//     });
+                        // String'i ArrayBuffer'a çeviren yardımcı fonksiyon
+                        function s2ab(s) {
+                            const buf = new ArrayBuffer(s.length);
+                            const view = new Uint8Array(buf);
+                            for (let i = 0; i < s.length; i++) {
+                                view[i] = s.charCodeAt(i) & 0xFF;
+                            }
+                            return buf;
+                        }
+
+                        // Dosyayı indirmek için Blob oluştur ve URL oluştur
+                        const blob = new Blob([s2ab(wbout)], { type: 'application/octet-stream' });
+                        const url = URL.createObjectURL(blob);
+
+                        // İndirme işlemini başlatmak için geçici bir link oluştur
+                        const a = document.createElement('a');
+                        a.href = url;
+                        a.download = 'data.xlsx';
+                        document.body.appendChild(a);
+                        a.click();
+                        document.body.removeChild(a);
+
+                        console.log(arrayFullData)
+            };
+
+            reader.readAsText(file);
+        });
 </script>
 </body>
 </html>
