@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Read XLSX File</title>
+    <title>Convert Files</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -13,17 +13,27 @@
 </head>
 <body class="bg-warning">
 
-    <div class="content p-5 container d-flex align-items-center justify-content-between flex-column ">
-        <h1 class="mb-4 ">XML Dosyasını CSV'e Dönüştür</h1>
-        <input class="form-control inline w-50" type="file" id="file-input" accept=".xml">
-        <button class="btn btn-primary mt-3 w-25" id="convert-btn">Download Excel</button>
-        <pre id="json-output"></pre>
+    <div class="content p-5 container d-flex align-items-center justify-content-between flex-column gap-2">
+        <h1 class="mb-5">XML Dosyasını CSV'e Dönüştür</h1>
+        
+        <div class="w-100 d-flex justify-content-center gap-2 flex-row align-items-center">
+            <input class="form-control inline w-50 me-4" type="file" id="file-input" accept=".xml">
+            <input class="form-check-input" type="checkbox" value="" id="dataLoggerCheck" onchange="dataLoggerChange()">
+            <label class="form-check-label user-select-none text-lg" for="dataLoggerCheck" >DataLogger</label>
+            <input class="form-control inline w-50 me-4 d-none" type="text" placeholder="(Data Logger İsmi Örn): Channel2.Device1" id="data-logger-text-input">
+        </div>
+
+        <button class="btn btn-primary mt-3 w-25" id="convert-btn">CSV İndir</button>
+        <span id="json-output" class="w-50 text-uppercase m-2 text-lg-center"></span>
     </div>
 <script>
 
     var arrayFullData = [];
-    var data = "";
-    var headData = ["Tag Name","Address","Data Type","Respect Data Type","Client Access","Scan Rate","Scaling","Raw Low","Raw High","Scaled Low","Scaled High","Scaled Data Type","Clamp Low","Clamp High","Eng Units","Description","Negate Value"]
+    var dataTable = "";
+    var headDataTable = ["Tag Name","Address","Data Type","Respect Data Type","Client Access","Scan Rate","Scaling","Raw Low","Raw High","Scaled Low","Scaled High","Scaled Data Type","Clamp Low","Clamp High","Eng Units","Description","Negate Value"]
+    var headDataLogger = [
+        "Item ID","Numeric Alias / ID","Data Type","Deadband Type","Deadband","Range Low","Range High"
+    ]
 
     function xmlToJson(xml) {
             // XML'yi JSON formatına dönüştür
@@ -62,9 +72,21 @@
             }
 
             return obj;
-        }
+    }
 
-        document.getElementById('convert-btn').addEventListener('click', function() {
+    document.getElementById('convert-btn').addEventListener('click', function() {
+
+            let dataLoggerCheck = document.getElementById("dataLoggerCheck");
+
+            if(dataLoggerCheck.checked) {
+                tableOrLoggerToCsv("logger", event)
+            } else {
+                tableOrLoggerToCsv("table", event)
+            }
+    });
+
+    function tableOrLoggerToCsv(option,event) {
+
             const fileInput = document.getElementById('file-input');
             if (fileInput.files.length === 0) {
                 alert('Lütfen bir XML dosyası seçin.');
@@ -82,38 +104,58 @@
                 // Hata kontrolü
                 const parserError = xmlDoc.getElementsByTagName("parsererror");
                 if (parserError.length) {
-                    document.getElementById('json-output').textContent = 'Hatalı XML verisi!';
+                    let errorBox = document.getElementById('json-output');
+                    errorBox.classList.remove('d-none');
+
+                    errorBox.classList.add('alert');
+                    errorBox.classList.add('alert-danger');
+                    errorBox.textContent = 'Hatalı XML verisi!';
+
+                    setTimeout(() => {
+                        errorBox.classList.add('d-none')
+                    }, 1500);
+
                     return;
                 }
 
                 const json = xmlToJson(xmlDoc.documentElement);
-                // document.getElementById('json-output').textContent = JSON.stringify(json, null, 2);
 
-                data = json.addData.data[0].globalVars.variable;
+                dataTable = json.addData.data[0].globalVars.variable;
 
-                // console.log(data);
+                if(option == "table") {
+                    arrayFullData.push(headDataTable);
+                } else if(option == "logger") {
+                    arrayFullData.push([";"])
+                    arrayFullData.push(["; LogItem"])
+                    arrayFullData.push([";"])
+                    arrayFullData.push(headDataLogger);
+                    console.log(arrayFullData)
+                }
 
-                arrayFullData.push(headData);
-
-                for (let i = 0; i < data.length; i++) {
-                    const element = data[i];
+                for (let i = 0; i < dataTable.length; i++) {
+                    const element = dataTable[i];
                     const elementName = element["@attributes"].name;
                     var elementAddress = element["@attributes"].address;
 
 
                     if(elementAddress == undefined) {
-                        console.log(element.type.BOOL)
+                        // console.log(element.type.BOOL)
                         if(element.type.BOOL) {
                             element.type = "BOOL";
                             elementAddress = "BOOL";
-                            console.log(elementAddress);
+                            // console.log(elementAddress);
                     }
                     } else {
                         elementAddress = elementAddress.slice(3) * 2 - 2 + 30000;
-                        // console.log(elementAddress)
                     }
+                        if(option == "table") {
+                            arrayFullData.push([elementName, String(elementAddress), `Float`,1, `RO`,100]);
+                        } else if(option == "logger") {
+                            let dataLoggerInputValue = document.getElementById("data-logger-text-input").value;
+                            console.log(dataLoggerInputValue)
 
-                        arrayFullData.push([elementName, String(elementAddress), `Float`,1, `RO`,100]);
+                            arrayFullData.push([dataLoggerInputValue + '.' + elementName, String(elementAddress), `Float`,`None`, `0.000000`,`0.000000`,`0.000000`,]);
+                        }
                 }
                         
                         // Verileri bir çalışma sayfasına çevir
@@ -145,16 +187,30 @@
                         // İndirme işlemini başlatmak için geçici bir link oluştur
                         const a = document.createElement('a');
                         a.href = url;
-                        a.download = 'data.csv';
+                        a.download = `${option}.csv`;
                         document.body.appendChild(a);
                         a.click();
                         document.body.removeChild(a);
 
-                        console.log(arrayFullData)
+                        window.location.reload();
+
+                        // console.log(arrayFullData)
             };
 
             reader.readAsText(file);
-        });
+    }
+
+    function dataLoggerChange() {
+        let dataLoggerCheck = document.getElementById("dataLoggerCheck");
+        let dataLoggerInput = document.getElementById("data-logger-text-input");
+
+        if(dataLoggerCheck.checked) //true & checked 
+        {
+            dataLoggerInput.classList.remove("d-none");
+        } else {
+            dataLoggerInput.classList.add("d-none");
+        }
+    }
 </script>
 </body>
 </html>
