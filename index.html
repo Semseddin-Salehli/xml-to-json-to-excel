@@ -14,16 +14,16 @@
 <body class="bg-warning">
 
     <div class="content p-5 container d-flex align-items-center justify-content-between flex-column ">
-        <h1 class="mb-4 ">XML Dosyasını EXCEL'e Dönüştür</h1>
+        <h1 class="mb-4 ">XML Dosyasını CSV'e Dönüştür</h1>
         <input class="form-control inline w-50" type="file" id="file-input" accept=".xml">
         <button class="btn btn-primary mt-3 w-25" id="convert-btn">Download Excel</button>
         <pre id="json-output"></pre>
     </div>
-
 <script>
 
     var arrayFullData = [];
     var data = "";
+    var headData = ["Tag Name","Address","Data Type","Respect Data Type","Client Access","Scan Rate","Scaling","Raw Low","Raw High","Scaled Low","Scaled High","Scaled Data Type","Clamp Low","Clamp High","Eng Units","Description","Negate Value"]
 
     function xmlToJson(xml) {
             // XML'yi JSON formatına dönüştür
@@ -93,6 +93,8 @@
 
                 // console.log(data);
 
+                arrayFullData.push(headData);
+
                 for (let i = 0; i < data.length; i++) {
                     const element = data[i];
                     const elementName = element["@attributes"].name;
@@ -111,8 +113,9 @@
                         // console.log(elementAddress)
                     }
 
-                        arrayFullData.push([elementName, elementAddress])
-                    }
+                        arrayFullData.push([elementName, String(elementAddress), `Float`,1, `RO`,100]);
+                }
+                        
                         // Verileri bir çalışma sayfasına çevir
                         const worksheet = XLSX.utils.aoa_to_sheet(arrayFullData);
 
@@ -123,7 +126,7 @@
                         XLSX.utils.book_append_sheet(workbook, worksheet, 'Sheet1');
 
                         // Çalışma kitabını bir binary string olarak yaz
-                        const wbout = XLSX.write(workbook, { bookType: 'xlsx', type: 'binary' });
+                        const wbout = XLSX.write(workbook, { bookType: 'csv', type: 'binary' });
 
                         // String'i ArrayBuffer'a çeviren yardımcı fonksiyon
                         function s2ab(s) {
@@ -142,7 +145,7 @@
                         // İndirme işlemini başlatmak için geçici bir link oluştur
                         const a = document.createElement('a');
                         a.href = url;
-                        a.download = 'data.xlsx';
+                        a.download = 'data.csv';
                         document.body.appendChild(a);
                         a.click();
                         document.body.removeChild(a);
